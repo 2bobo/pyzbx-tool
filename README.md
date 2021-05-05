@@ -1,4 +1,4 @@
-# pyzbx
+# pyzbx-tool
 This Python module can directly use JSON from [Zabbix API documentation](https://www.zabbix.com/documentation/current/manual/api).
 It also allows you to use ZabbixSender from Python.
 
