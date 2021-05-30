@@ -4,7 +4,7 @@
 import unittest
 import httpretty
 import json
-from pyzbx import ZabbixAPI
+from pyzbxtool import ZabbixAPI
 
 
 class Testpyzbx(unittest.TestCase):
