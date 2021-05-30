@@ -16,9 +16,9 @@ python setup.py install
 
 ### API usage
 ```python
-import pyzbx_tool
+import pyzbxtool
 
-zbx_api = pyzbx_tool.ZabbixAPI("http://example.com", "Admin", "zabbix")
+zbx_api = pyzbxtool.ZabbixAPI("http://example.com", "Admin", "zabbix")
 version_json = {
     "jsonrpc": "2.0",
     "method": "apiinfo.version",
@@ -34,9 +34,9 @@ print(version)
 
 ### Sender usage
 ```python
-import pyzbx_tool
+import pyzbxtool
 
-zbx_sender = pyzbx_tool.ZabbixSender("zabbix_server_ip", "10051")
+zbx_sender = pyzbxtool.ZabbixSender("zabbix_server_ip", "10051")
 zbx_sender.add("host", "key", "value")
 result = zbx_sender.send()
 print(result)
