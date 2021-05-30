@@ -1,4 +1,4 @@
-# pyzbx-tool
+###### pyzbx_tool
 This Python module can directly use JSON from [Zabbix API documentation](https://www.zabbix.com/documentation/current/manual/api).
 It also allows you to use ZabbixSender from Python.
 
@@ -16,9 +16,9 @@ python setup.py install
 
 ### API usage
 ```python
-import pyzbx-tool
+import pyzbx_tool
 
-zbx_api = pyzbx-tool.ZabbixAPI("http://example.com", "Admin", "zabbix")
+zbx_api = pyzbx_tool.ZabbixAPI("http://example.com", "Admin", "zabbix")
 version_json = {
     "jsonrpc": "2.0",
     "method": "apiinfo.version",
@@ -34,9 +34,9 @@ print(version)
 
 ### Sender usage
 ```python
-import pyzbx-tool
+import pyzbx_tool
 
-zbx_sender = pyzbx-tool.ZabbixSender("zabbix_server_ip", "10051")
+zbx_sender = pyzbx_tool.ZabbixSender("zabbix_server_ip", "10051")
 zbx_sender.add("host", "key", "value")
 result = zbx_sender.send()
 print(result)

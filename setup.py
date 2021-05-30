@@ -13,10 +13,10 @@ with open('LICENSE') as f:
 if __name__ == '__main__':
     # build distribution package
     setup(
-        name="pyzbx-tool",
+        name="pyzbx_tool",
         version="2021.05.05.03",
         py_modules=['ZabbixAPI', 'ZabbixSender'],
-        description='pyzbx-tool',
+        description='pyzbx_tool',
         long_description=README,
         install_requires=['requests'],
         author='2bo',
