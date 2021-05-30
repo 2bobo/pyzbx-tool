@@ -14,7 +14,7 @@ if __name__ == '__main__':
     # build distribution package
     setup(
         name="pyzbx_tool",
-        version="2021.05.05.03",
+        version="2021.05.30.01",
         py_modules=['ZabbixAPI', 'ZabbixSender'],
         description='pyzbx_tool',
         long_description=README,
